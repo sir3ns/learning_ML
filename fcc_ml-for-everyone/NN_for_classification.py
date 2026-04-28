@@ -110,6 +110,8 @@ def print_weight_bias():
         print("Weights:\n", w)
         print("Bias:\n", b)
 
+# print_weight_bias()
+
 
 def predict_flower():
     model = tf.keras.models.load_model(model_name)
